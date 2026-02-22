@@ -42,12 +42,11 @@ Run the following SQL in MySQL Workbench to create the table or just run the bac
 
 ```sql
 CREATE TABLE IF NOT EXISTS issues (
-    id          BIGINT          NOT NULL AUTO_INCREMENT,
-    title       VARCHAR(255)    NOT NULL,
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
     description TEXT,
-    status      ENUM('OPEN', 'IN_PROGRESS', 'CLOSED') NOT NULL DEFAULT 'OPEN',
-    created_at  DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP,
-
+    status ENUM('OPEN', 'IN_PROGRESS', 'CLOSED') NOT NULL DEFAULT 'OPEN',
+    created_at  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
 ```
