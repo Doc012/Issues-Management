@@ -118,4 +118,4 @@ PATCH /api/issues/1/status?status=IN_PROGRESS
 
 ## License
 
-This project is for the backend Take-Home Assignment purposes.
+This project is for the backend Take-Home Assignment.
