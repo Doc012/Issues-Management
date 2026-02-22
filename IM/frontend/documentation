@@ -1,0 +1,25 @@
+Your task is to build a small backend service that manages “issues”.
+The system should support the following operations:
+- Create an issue
+- Retrieve all issues
+- Retrieve a single issue
+- Update an issue
+- Delete an issue
+Each issue should contain at least:
+- id
+- title
+- description
+- status (open / in-progress / closed)
+- createdAt
+You may use:
+- Any programming language or framework you are comfortable with
+- Any database (SQLite or an in-memory database is perfectly fine)
+Optional (bonus):
+- Input validation
+- Tests
+- Clean and readable project structure
+Please include a README explaining:
+- How to install and run the service
+- How to interact with the API
+We look forward to reviewing your work.
+Good luck!
