@@ -87,7 +87,7 @@ The API will be available at `http://localhost:8080`.
 
 ## Request & Response Examples
 
-### Create an Issue — `POST /api/issues`
+### Create an Issue - `POST /api/issues`
 
 **Request Body:**
 ```json
@@ -98,7 +98,7 @@ The API will be available at `http://localhost:8080`.
 }
 ```
 
-### Update Issue Status — `PATCH /api/issues/{id}/status`
+### Update Issue Status - `PATCH /api/issues/{id}/status`
 
 ```
 PATCH /api/issues/1/status?status=IN_PROGRESS
@@ -110,12 +110,12 @@ PATCH /api/issues/1/status?status=IN_PROGRESS
 
 ## Validation Rules
 
-- `title` — required, max 255 characters
-- `description` — optional
-- `status` — must be one of `OPEN`, `IN_PROGRESS`, `CLOSED`
+- `title` - required, max 255 characters
+- `description` - optional
+- `status` - must be one of `OPEN`, `IN_PROGRESS`, `CLOSED`
 
 ---
 
 ## License
 
-This project is for educational purposes.
+This project is for the backend Take-Home Assignment purposes.
